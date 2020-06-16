@@ -1,0 +1,108 @@
+*
+*:before
+*:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+$primary-color: #555555;
+
+img {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.type-1834 {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Lato';
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1080px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.col-inner {
+    width: 100%;
+    margin: 0 auto;
+}
+.title {
+    color: $primary-color;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    &::before {
+        position: absolute;
+        content: '';
+        background-color: #e3e9ef;
+        height: 2px;
+        width: 32%;
+        left: 0;
+        top: 50%;
+    }
+    &::after {
+        position: absolute;
+        content: '';
+        background-color: #e3e9ef;
+        height: 2px;
+        width: 32%;
+        right: 0;
+        top: 50%;
+    }
+}
+.col-inner {
+    margin-top: 15px;
+    overflow: hidden;
+    border-radius: 10px;
+    & .image {
+        transition: 0.4s;
+    }
+    &:hover {
+        & .image{
+            transform: scale(1.1);
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .title::before, .title::after {
+        width: 25%;
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 20px;
+    }
+    .title::before, .title::after {
+        width: 20%;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    .title {
+        font-size: 18px;
+    }
+    .title::before, .title::after {
+        width: 15%;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .title {
+        font-size: 15px;
+    }
+    .title::before, .title::after {
+        width: 15%;
+    }
+  }
