@@ -21,7 +21,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="swiper-slide">
                         <div class="bg-slider-1 ">
                             <div class="text-center">
-                                <h5 class="sub-title">A cool Top header</h3>
+                                <h5 class="sub-title">A cool Top header</h5>
                                     <h2 class="main-title">Five Key Elements for your Living room</h2>
                                    <div class="underline"></div>
                                     <button>
@@ -34,7 +34,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="swiper-slide">
                         <div class="bg-slider-2">
                         <div class="text">
-                                <h5 class="sub-title">A cool Top header</h3>
+                                <h5 class="sub-title">A cool Top header</h5>
                                     <h2 class="main-title">Latest Fashion News for AutumN</h2>
                                     <div class="underline"></div>
                                     <button>
@@ -47,7 +47,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="swiper-slide">
                         <div class="bg-slider-3">
                             <div class="text-center">
-                                <h5 class="sub-title">A cool Top header</h3>
+                                <h5 class="sub-title">A cool Top header</h5>
                                     <h2 class="main-title">Five Key Elements for your Living room</h2>
                                     <div class="underline"></div>
                                     <button>
