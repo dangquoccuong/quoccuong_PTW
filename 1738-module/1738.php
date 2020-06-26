@@ -27,15 +27,13 @@ file_put_contents("css/styles.css",$style);
         <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="<?php echo $url_path ?>/css/reset.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/styles.css">
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="https://unpkg.com/swiper/js/swiper.min.js">  </script>
-		<script src="js/1738.js"></script>
-        
+        <link rel="stylesheet" href="<?php echo $url_path ?>/css/styles.css">      
+        <script src="js/jquery.js"></script>       
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/swiper/js/swiper.min.js">  </script>
+        <script src="js/1738.js"></script>     
     </head>
     <body >
         <?php include "./1738-content.php"; ?>
     </body>
-    
 </html>

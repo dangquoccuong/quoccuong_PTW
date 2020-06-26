@@ -1,4 +1,5 @@
-var swiper = new Swiper('.swiper-container', {
+$(document).ready(function(){
+  var swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
@@ -11,3 +12,4 @@ var swiper = new Swiper('.swiper-container', {
       prevEl: '.swiper-button-prev',
     },
   });
+})

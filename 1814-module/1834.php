@@ -19,18 +19,20 @@ file_put_contents("css/styles.css",$style);
 
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/bootstrap.min.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/reset.css">
-        <link rel="stylesheet" href="<?php echo $url_path ?>/css/styles.css">
-    </head>
-    <body >
-        <?php include './1834-content.php'; ?>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="<?php echo $url_path ?>/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo $url_path ?>/css/reset.css">
+    <link rel="stylesheet" href="<?php echo $url_path ?>/css/styles.css">
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.js"></script>
+</head>
+
+<body>
+    <?php include './1834-content.php'; ?>
+</body>
 
 </html>
