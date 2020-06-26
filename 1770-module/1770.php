@@ -31,7 +31,7 @@ $url_path = str_replace('\\', '/', $url_path);
     <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo $url_path ?>/fontawesome-free-5.13.0-web/css/all.min.css" rel="stylesheet"/>
     <link href="<?php echo $url_path ?>/swiper-5.4.1/package/css/swiper.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="./css/4-styles.css">
+    <link href="<?php echo $url_path ?>./css/4-styles.css">
     <script src="<?php echo $url_path ?>/swiper-5.4.1/package/js/swiper.min.js"></script>
     <script src="<?php echo $url_path ?>/js/jquery-3.5.1.min.js"></script>
     <script src="js/scripts.js"></script>
