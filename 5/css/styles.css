@@ -1,0 +1,64 @@
+.type5 {
+  font-family: Arial, Helvetica, sans-serif; }
+  .type5 .product-title {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 50px;
+    margin-bottom: 10%; }
+    .type5 .product-title .title1 {
+      font-size: 25px;
+      display: block;
+      padding-bottom: 10px; }
+    .type5 .product-title .title2 {
+      color: #b9b9b9;
+      font-size: 17px; }
+  .type5 .product {
+    border: 1px solid #c0c2c742;
+    border-right: none;
+    margin: 0 5px 20px 0; }
+    .type5 .product .img {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      margin-top: 10%;
+      padding-bottom: 20%; }
+    .type5 .product .text-ct {
+      position: relative; }
+      .type5 .product .text-ct .text-box {
+        position: absolute;
+        top: 35%;
+        bottom: 0;
+        left: 15%;
+        right: 0;
+        font-weight: bold; }
+        .type5 .product .text-ct .text-box .text {
+          display: block;
+          padding-bottom: 10px;
+          font-size: 100%; }
+        .type5 .product .text-ct .text-box .price {
+          font-size: 150%;
+          color: #b2a780; }
+        .type5 .product .text-ct .text-box .price-sale {
+          color: #b9b9b9; }
+
+@media only screen and (max-width: 768px) {
+  .spm::before, .spm::after {
+    width: 25%; } }
+
+@media only screen and (max-width: 600px) {
+  .spm {
+    font-size: 20px; }
+  .spm::before, .spm::after {
+    width: 20%; } }
+
+@media only screen and (max-width: 500px) {
+  .spm {
+    font-size: 18px; }
+  .spm::before, .spm::after {
+    width: 15%; } }
+
+@media only screen and (max-width: 400px) {
+  .spm {
+    font-size: 15px; }
+  .spm::before, .spm::after {
+    width: 15%; } }
